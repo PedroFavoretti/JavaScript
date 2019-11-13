@@ -1,3 +1,138 @@
 -------------------------------------------------------------------------------------------------------------------------------
                                                     javascript
 -------------------------------------------------------------------------------------------------------------------------------                                                 
+
+ - O que é? 
+    JavaScript é uma linguagem que permite executar scripts interpretados a partir do cliente da aplicação(que seria o  navegador.), exemplo: Quando o usuário está com o google chrome aberto o JavaScript consegue realizar algumas açãos na interface do software pelo lado do cliente, ou seja, requisição nao precisa ir pro servidor pra devolver resposta. Quando
+clica algum botão e aparece um pop-up etc... Isso é o JavaScript. Com o NodeJS é possível usar o JavaScript no backend.
+
+ - Configurando o ambiente
+    - Editor Visual Studio Code 
+
+
+ - JavaScript em ação
+    Sempre em um código HTML quando for utilizar javaScript, necessário abrir <script> </script>, para que seja possível 
+entender que se trata de código JavaScript. 
+
+        <html> 
+
+          <head> 
+           <title> Curso JavaScript </title>
+          </head>
+
+          <body>
+            
+            <script>
+            //console. é uma variavel global para mostrar o código/retorno o console (F12) 
+            console.log('Hello World')
+            </script>
+
+          </body>  
+
+        </html>
+
+    Procurar sempre manter os códigos JavaScript antes de fechar o elemento <body>, pois assim a renderização é vertical
+ou seja, de cima pra baixo, então tudo o que vier antes do JavaScript vai ser carregado antes dele. POis o JavaScript trabalha
+com elementos em tela, se colocarmos pra executar antes da arvore  de elemento, quando precisarmos de algum elemento javascript não conseguiremos acessar, pois pro JavaScript não vai ter sido criado ainda. 
+
+
+ - Variáveis e dados
+   No JavaScript não é necessário definir o tipo da variável. Ela é sempre definida como "var"
+
+        <html> 
+
+          <head> 
+           <title> Curso JavaScript </title>
+          </head>
+
+          <body>
+            
+            <script>
+             //Como não é definido o tipo,é possível atribuir diversos valores à uma mesma variável;
+             var nome = "Pedro"; //Variavel do tipo string
+             var peso = 90.5;    //Variavel FLOAT
+             var idade = 23;     //Variavel int
+             var humano = true;  //Variavel boolean
+             var alunos = ["Diego", "Pedro", "João", "Matheus"];  //Variavel lista
+             var aluno = {
+                nome: alunos[0], //Faz com que alimente com o nome da lista Alunos.
+                idade: 23,
+                peso: 80.5,
+                humano: true
+                }; //Variavel objeto
+
+
+            console.log(alunos[1]); //Se quiser mostrar a locaslização no array só passar o numero, lembrando q começa no 0
+            console.log(aluno.nome); //Isso no caso de ser uma variavel do tipo objeto.
+            </script>
+
+          </body>  
+
+        </html>
+
+ - Operações matemáticas 
+    
+<html> 
+
+    <head> 
+        <title> Curso JavaScript </title>
+    </head>
+      
+    <body>
+                  
+        <script>
+            var x = 10, y = 5;  //Para declarar mais de uma variável ao mesmo tempo
+            //setandoo variavel com resultado
+            var resultado = x / y;  
+      
+            //incrementando valor na variável de dois jeitos
+            x = x + 3; 
+            x += 3
+            //possível também fazer com outra variavel 
+            x += y 
+      
+            console.log(x);
+            </script>
+      
+    </body>  
+    
+</html>
+      
+
+ - Funções
+ 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

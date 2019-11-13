@@ -1,0 +1,30 @@
+<html> 
+
+    <head> 
+     <title> Curso JavaScript </title>
+    </head>
+
+    <body>
+      
+      <script>
+       //Como não é definido o tipo,é possível atribuir diversos valores à uma mesma variável;
+       var nome = "Pedro"; //Variavel do tipo string
+       var peso = 90.5;    //Variavel FLOAT
+       var idade = 23;     //Variavel int
+       var humano = true;  //Variavel boolean
+       var alunos = ["Diego", "Pedro", "João", "Matheus"];  //Variavel lista
+       var aluno = {
+          nome: alunos[0], //Faz com que alimente com o nome da lista Alunos.
+          idade: 23,
+          peso: 80.5,
+          humano: true
+          }; //Variavel objeto
+
+
+      console.log(alunos[1]); //Se quiser mostrar a locaslização no array só passar o numero, lembrando q começa no 0
+      console.log(aluno.nome); //Isso no caso de ser uma variavel do tipo objeto.
+      </script>
+
+    </body>  
+
+  </html>
